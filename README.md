@@ -1,5 +1,7 @@
 # BearBackup - downloads
 
+<p align="center"><img src="BearBackup.svg" alt="BearBackup: a cartoon bear putting folders into a safe" width="600"></p>
+
 Backup solution for Windows PCs: a server (Docker, web interface) and an agent on each PC. This repository only hosts the **downloads**.
 
 ## Windows agent
@@ -20,7 +22,7 @@ The programs are not code-signed, so Windows SmartScreen may show a warning on f
 
     docker run -d --name bearbackup --restart unless-stopped -p 5080:5080 \
       -e EnrollmentKey=<long random value> -e TZ=America/Toronto \
-      -v bearbackup-data:/data ghcr.io/FrankJacket/bearbackup-server:latest
+      -v bearbackup-data:/data ghcr.io/frankjacket/bearbackup-server:latest
 
 Open `http://<docker host>:5080`. Use the same enrollment key on the agents. Outside a trusted network, put a reverse proxy with HTTPS in front of the container.
 

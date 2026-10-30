@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-label="Un ours de style bande dessinée qui range des dossiers dans un coffre-fort">
+  <defs>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="9" cy="9" r="3.2" fill="#f4b942" opacity="0.55"/>
+    </pattern>
+  </defs>
+
+  <!-- Fond -->
+  <rect width="900" height="600" fill="#fff1c1"/>
+  <rect width="900" height="600" fill="url(#dots)"/>
+  <rect x="6" y="6" width="888" height="588" fill="none" stroke="#111" stroke-width="12"/>
+
+  <!-- Sol -->
+  <rect x="6" y="545" width="888" height="49" fill="#6c757d"/>
+  <line x1="6" y1="545" x2="894" y2="545" stroke="#111" stroke-width="6"/>
+  <ellipse cx="290" cy="550" rx="170" ry="14" fill="#111" opacity="0.25"/>
+
+  <g stroke="#111" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+
+    <!-- ===== COFFRE-FORT ===== -->
+    <!-- Pieds -->
+    <rect x="520" y="468" width="36" height="22" fill="#3d4852"/>
+    <rect x="704" y="468" width="36" height="22" fill="#3d4852"/>
+    <!-- Corps -->
+    <rect x="500" y="130" width="260" height="340" rx="14" fill="#5d6b7a"/>
+    <!-- Intérieur -->
+    <rect x="525" y="155" width="210" height="290" rx="6" fill="#1f2933"/>
+    <!-- Tablette -->
+    <line x1="525" y1="312" x2="735" y2="312" stroke="#8795a3" stroke-width="8"/>
+
+    <!-- Dossiers déjà rangés (étagère du haut) -->
+    <rect x="537" y="212" width="24" height="100" rx="3" fill="#457b9d" stroke-width="4"/>
+    <rect x="565" y="222" width="24" height="90" rx="3" fill="#e9c46a" stroke-width="4"/>
+    <rect x="593" y="207" width="24" height="105" rx="3" fill="#2a9d8f" stroke-width="4"/>
+    <!-- Dossiers déjà rangés (étagère du bas) -->
+    <rect x="537" y="350" width="24" height="95" rx="3" fill="#e76f51" stroke-width="4"/>
+    <rect x="565" y="340" width="24" height="105" rx="3" fill="#457b9d" stroke-width="4"/>
+    <rect x="593" y="355" width="24" height="90" rx="3" fill="#e9c46a" stroke-width="4"/>
+    <rect x="621" y="345" width="24" height="100" rx="3" fill="#2a9d8f" stroke-width="4"/>
+    <rect x="649" y="352" width="24" height="93" rx="3" fill="#e63946" stroke-width="4"/>
+
+    <!-- Porte ouverte -->
+    <polygon points="760,130 845,98 845,502 760,470" fill="#7b8794"/>
+    <polygon points="772,150 832,126 832,474 772,450" fill="none" stroke-width="4"/>
+    <!-- Roue de verrouillage -->
+    <ellipse cx="803" cy="300" rx="22" ry="36" fill="#c9d1d9"/>
+    <ellipse cx="803" cy="300" rx="7" ry="11" fill="#5d6b7a" stroke-width="4"/>
+    <line x1="803" y1="264" x2="803" y2="336" stroke-width="4"/>
+    <line x1="781" y1="300" x2="825" y2="300" stroke-width="4"/>
+    <!-- Charnières -->
+    <rect x="752" y="170" width="16" height="44" rx="4" fill="#3d4852" stroke-width="4"/>
+    <rect x="752" y="390" width="16" height="44" rx="4" fill="#3d4852" stroke-width="4"/>
+
+    <!-- ===== OURS ===== -->
+    <!-- Pieds -->
+    <ellipse cx="228" cy="526" rx="50" ry="22" fill="#7a4a21"/>
+    <ellipse cx="358" cy="526" rx="50" ry="22" fill="#7a4a21"/>
+    <!-- Corps -->
+    <ellipse cx="292" cy="410" rx="125" ry="132" fill="#8b5a2b"/>
+    <!-- Ventre -->
+    <ellipse cx="302" cy="432" rx="72" ry="90" fill="#e3b27a" stroke-width="5"/>
+
+    <!-- Bras gauche (le long du corps) -->
+    <line x1="190" y1="362" x2="168" y2="452" stroke="#111" stroke-width="60"/>
+    <line x1="190" y1="362" x2="168" y2="452" stroke="#8b5a2b" stroke-width="48"/>
+    <circle cx="166" cy="458" r="26" fill="#8b5a2b"/>
+
+    <!-- Oreilles -->
+    <circle cx="228" cy="140" r="34" fill="#8b5a2b"/>
+    <circle cx="228" cy="140" r="16" fill="#e3b27a" stroke-width="4"/>
+    <circle cx="372" cy="140" r="34" fill="#8b5a2b"/>
+    <circle cx="372" cy="140" r="16" fill="#e3b27a" stroke-width="4"/>
+    <!-- Tête -->
+    <circle cx="300" cy="215" r="92" fill="#8b5a2b"/>
+    <!-- Museau -->
+    <ellipse cx="326" cy="244" rx="50" ry="37" fill="#e3b27a" stroke-width="5"/>
+    <ellipse cx="348" cy="228" rx="17" ry="12" fill="#111" stroke-width="3"/>
+    <path d="M 326 254 Q 338 270 356 256" fill="none" stroke-width="5"/>
+    <!-- Yeux -->
+    <ellipse cx="280" cy="196" rx="15" ry="18" fill="#fff" stroke-width="5"/>
+    <ellipse cx="337" cy="194" rx="15" ry="18" fill="#fff" stroke-width="5"/>
+    <circle cx="287" cy="198" r="7" fill="#111" stroke="none"/>
+    <circle cx="344" cy="196" r="7" fill="#111" stroke="none"/>
+    <!-- Sourcils déterminés -->
+    <path d="M 260 170 L 298 181" fill="none" stroke-width="8"/>
+    <path d="M 321 180 L 358 168" fill="none" stroke-width="8"/>
+
+    <!-- Bras droit tendu vers le coffre -->
+    <line x1="368" y1="358" x2="452" y2="314" stroke="#111" stroke-width="62"/>
+    <line x1="368" y1="358" x2="452" y2="314" stroke="#8b5a2b" stroke-width="50"/>
+
+    <!-- Pile de dossiers -->
+    <g transform="rotate(-6 490 280)">
+      <!-- orange (arrière) -->
+      <rect x="458" y="221" width="38" height="14" rx="4" fill="#f4a261" stroke-width="4"/>
+      <rect x="458" y="232" width="92" height="64" rx="4" fill="#f4a261" stroke-width="5"/>
+      <!-- turquoise -->
+      <rect x="450" y="233" width="38" height="14" rx="4" fill="#2a9d8f" stroke-width="4"/>
+      <rect x="450" y="244" width="92" height="64" rx="4" fill="#2a9d8f" stroke-width="5"/>
+      <!-- rouge (devant) -->
+      <rect x="442" y="245" width="38" height="14" rx="4" fill="#e63946" stroke-width="4"/>
+      <rect x="442" y="256" width="92" height="64" rx="4" fill="#e63946" stroke-width="5"/>
+      <text x="488" y="296" font-family="Impact, 'Arial Black', sans-serif" font-size="17" fill="#fff" stroke="none" text-anchor="middle" transform="rotate(-6 488 296)">SECRET</text>
+    </g>
+    <!-- Main par-dessus -->
+    <circle cx="458" cy="312" r="27" fill="#8b5a2b"/>
+    <path d="M 450 300 L 450 312 M 462 298 L 462 310" fill="none" stroke-width="3"/>
+
+    <!-- Lignes de mouvement -->
+    <path d="M 425 232 L 400 216" fill="none" stroke-width="5"/>
+    <path d="M 418 262 L 390 258" fill="none" stroke-width="5"/>
+    <path d="M 420 292 L 395 304" fill="none" stroke-width="5"/>
+
+    <!-- ===== ONOMATOPÉE ===== -->
+    <polygon points="662,75 634.8,84.3 653.7,106 625.5,100.5 631,128.7 609.3,109.8 600,137 590.7,109.8 569,128.7 574.5,100.5 546.3,106 565.2,84.3 538,75 565.2,65.7 546.3,44 574.5,49.5 569,21.3 590.7,40.2 600,13 609.3,40.2 631,21.3 625.5,49.5 653.7,44 634.8,65.7" fill="#e63946" stroke-width="5"/>
+    <text x="600" y="84" font-family="Impact, 'Arial Black', sans-serif" font-size="22" fill="#ffd60a" stroke="#111" stroke-width="2" text-anchor="middle" transform="rotate(-8 600 75)">CLUNK!</text>
+
+    <!-- ===== BULLE ===== -->
+    <polygon points="190,96 252,128 232,90" fill="#fff" stroke-width="5"/>
+    <ellipse cx="150" cy="62" rx="125" ry="42" fill="#fff" stroke-width="5"/>
+    <polygon points="196,92 244,122 228,92" fill="#fff" stroke="none"/>
+    <text x="150" y="57" font-family="'Comic Sans MS', 'Comic Neue', Impact, sans-serif" font-size="24" font-weight="bold" fill="#111" stroke="none" text-anchor="middle">Your files are</text>
+    <text x="150" y="86" font-family="'Comic Sans MS', 'Comic Neue', Impact, sans-serif" font-size="24" font-weight="bold" fill="#111" stroke="none" text-anchor="middle">safe with me!</text>
+  </g>
+</svg>
