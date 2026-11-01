@@ -22,7 +22,7 @@ The programs are not code-signed, so Windows SmartScreen may show a warning on f
 
     docker run -d --name ursavault --restart unless-stopped -p 5080:5080 \
       -e EnrollmentKey=<long random value> -e TZ=America/Toronto \
-      -v bearbackup-data:/data ghcr.io/frankjacket/ursavault-server:latest
+      -v ursavault-data:/data ghcr.io/frankjacket/ursavault-server:latest
 
 Open `http://<docker host>:5080`. Use the same enrollment key on the agents. Outside a trusted network, put a reverse proxy with HTTPS in front of the container.
 
